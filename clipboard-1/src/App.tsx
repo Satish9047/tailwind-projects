@@ -1,10 +1,11 @@
 import Hero from "./sections/Hero";
-import "./App.css";
+import Snippets from "./sections/Snippets";
 
 function App() {
   return (
     <>
       <Hero />
+      <Snippets />
     </>
   );
 }
