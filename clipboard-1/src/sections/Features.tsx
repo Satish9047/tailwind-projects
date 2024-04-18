@@ -1,4 +1,6 @@
 const Features = () => {
+  //write a function that takes 2 parameter and return the sum
+
   return (
     <section id="features">
       <div className="section-container my-20 px-10">
