@@ -1,5 +1,6 @@
 import Features from "./sections/Features";
 import Hero from "./sections/Hero";
+import Info from "./sections/Info";
 import Snippets from "./sections/Snippets";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <Snippets />
       <Features />
+      <Info />
     </>
   );
 }
