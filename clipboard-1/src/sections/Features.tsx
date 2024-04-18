@@ -16,9 +16,7 @@ const Features = () => {
           <div className="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16 ">
             {/* item 1 */}
             <div>
-              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                Ouick Search
-              </h5>
+              <h5>Ouick Search</h5>
               <p className="max-w-md text-grayishBlue">
                 Easily search your snippets by content, category, web address,
                 application, and more.
@@ -27,9 +25,7 @@ const Features = () => {
 
             {/* item 2 */}
             <div>
-              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                ICloud Sync
-              </h5>
+              <h5>ICloud Sync</h5>
               <p className="max-w-md text-grayishBlue">
                 Instantly saves and syncs snippets across all your devices.
               </p>
@@ -37,9 +33,7 @@ const Features = () => {
 
             {/* item 3 */}
             <div>
-              <h5 className="mb-2 text-2xl font-bold text-darkGrayishBlue">
-                Compeletely History
-              </h5>
+              <h5>Compeletely History</h5>
               <p className="max-w-md text-grayishBlue">
                 Retrieve any snippets from the first moment you started using
                 the app.
