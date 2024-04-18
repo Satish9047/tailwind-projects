@@ -16,7 +16,7 @@ const References = () => {
       <section id="bottom">
         <div className="section-container my-20">
           <h3>Clipoard for iOS and MacOS</h3>
-          <p className="section-content mb-10">
+          <p className="section-content text-xl mb-10">
             Available for free on the App Store. Download for Mac or iOS, sync
             with iCloud and you're ready to start adding to your clipboard.
           </p>
