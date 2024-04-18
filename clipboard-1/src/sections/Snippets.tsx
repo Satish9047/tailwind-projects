@@ -1,6 +1,6 @@
 const Snippets = () => {
   return (
-    <section id="snippets" className="h-screen">
+    <section id="snippets">
       <div className="section-container my-20 px-10">
         <h3>Keep track of snippets</h3>
         <p className="section-container mb-24 text-xl leading-9 text-grayishBlue">
