@@ -1,7 +1,9 @@
+import Header from "./sections/Header";
+
 function App() {
   return (
     <>
-      <h1 className="bg-red-200">Hello world</h1>
+      <Header />
     </>
   );
 }
