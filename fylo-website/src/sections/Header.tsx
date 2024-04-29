@@ -1,4 +1,16 @@
+import { useDispatch, useSelector } from "react-redux";
+import { toggleTheme } from "../slices/themeSlice";
+import { RootState } from "../store";
+
 const Header = () => {
+  const dispatch = useDispatch();
+  const theme = useSelector((state: RootState) => state.theme.theme);
+
+  const handleToggleTheme = () => {
+    dispatch(toggleTheme());
+    document.body.classList.toggle("dark");
+  };
+
   return (
     <header className="container mx-auto mt-10 px-6 text-center h-40 md:h-20">
       {/* dynamic logo */}
@@ -12,11 +24,14 @@ const Header = () => {
           Testimonials
         </a>
         {/* dark/light toggle */}
-        <button className="theme-toggle text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:right-gray-700 rounded-lg text-sm p-2 5">
+        <button
+          className="theme-toggle text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:right-gray-700 rounded-lg text-sm p-2 5"
+          onClick={handleToggleTheme}
+        >
           {/* Dark SVG Icon */}
           <svg
             id="theme-toggle-dark-icon"
-            className="w-5 h-5"
+            className={`w-5 h-5 ${theme === "dark" ? "" : "hidden"}`}
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +41,7 @@ const Header = () => {
           {/*  Light SVG Icon */}
           <svg
             id="theme-toggle-light-icon"
-            className="w-5 h-5 hidden"
+            className={`w-5 h-5 ${theme === "light" ? "" : "hidden"}`}
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
