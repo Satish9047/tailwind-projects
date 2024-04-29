@@ -8,7 +8,7 @@ const Header = () => {
 
   const handleToggleTheme = () => {
     dispatch(toggleTheme());
-    document.body.classList.toggle("dark");
+    document.documentElement.classList.toggle("dark");
   };
 
   return (
