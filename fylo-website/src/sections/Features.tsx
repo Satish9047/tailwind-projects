@@ -43,12 +43,10 @@ const Features = () => {
               <img src="images/icon-collaboration.svg" alt="anywhere icon" />
             </div>
 
-            <h3 className="text-xl font-bold">
-              Access your file from anywhere
-            </h3>
+            <h3 className="text-xl font-bold">Sync files</h3>
             <p className="max-w-md">
-              The ability to use a smartphone, tablet, or computer to access
-              your account means your files follow you everywhere.
+              Your file is sync to smartphone, tablet, or computer and get up to
+              date files without restarting manually.
             </p>
           </div>
 
@@ -58,11 +56,10 @@ const Features = () => {
               <img src="images/icon-any-file.svg" alt="anywhere icon" />
             </div>
 
-            <h3 className="text-xl font-bold">Security you can trust</h3>
+            <h3 className="text-xl font-bold">Organize files</h3>
             <p className="max-w-md">
-              2-factor authentication and user-controlled encryption are just a
-              couple of the security features we allow to help secure your
-              files.
+              Add, edit, and organize files. Make it easy to keep all of your
+              data organized, updated and elegant.
             </p>
           </div>
         </div>
