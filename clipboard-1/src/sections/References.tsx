@@ -3,7 +3,7 @@ const References = () => {
     <>
       <section id="references">
         <div className="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:justify-between md:space-y-0">
-          <img src="images/logo-google.png" alt="google logo" />
+          <img  src="images/logo-google.png" alt="google logo" />
           <img src="images/logo-ibm.png" alt="ibm logo" />
           <img src="images/logo-microsoft.png" alt="microsoft logo" />
           <img src="images/logo-hp.png" alt="hp logo" />
