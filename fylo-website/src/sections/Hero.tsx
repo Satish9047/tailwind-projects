@@ -19,7 +19,7 @@ const Hero = () => {
           Access them wherever you need, share and collaborate with friends,
           family, and co-workers.
         </p>
-        <button className="p-3 rounded-full w-52 bg-accentCyan100 hover:scale-95">
+        <button className="p-3 rounded-full w-52 bg-greenBlue hover:scale-95">
           Get Started
         </button>
       </div>

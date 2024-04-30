@@ -12,7 +12,6 @@ export default {
         accentCyan: "hsl(176, 68%, 64%)",
         accentBlue: "hsl(198, 60%, 50%)",
         lightRed: "hsl(0, 100%, 63%)",
-        accentCyan100: "Hsl(186, 63% , 59%)",
       },
       fontFamily: {
         sans: ["Raleway", "sans-serif"],
