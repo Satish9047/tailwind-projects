@@ -17,7 +17,7 @@ const Subscribe = () => {
             />
           </div>
 
-          <button className="w-full p-3 px-6 rounded-full bg-greenBlue md:w-56 hover:scale-95">
+          <button className="w-full p-3 px-6 rounded-full bg-green-500 md:w-56 hover:scale-95">
             Get Started For Free
           </button>
         </div>
