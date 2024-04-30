@@ -6,7 +6,7 @@ const Productive = () => {
         {/* image */}
         <div className="md:w-1/2">
           <img
-            src="/public/images/illustration-stay-productive.png"
+            src="/images/illustration-stay-productive.png"
             alt="productive image"
             className="mb-10"
           />
