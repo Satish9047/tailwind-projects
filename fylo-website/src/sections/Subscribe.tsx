@@ -1,7 +1,10 @@
 const Subscribe = () => {
   return (
-    <section id="subscribe" className="relative px-6 dark:bg-darkBlue2 md:px-0">
-      <div className="relative -top-40 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-gray-100 dark:bg-darkBlue1 md:px-16">
+    <section
+      id="subscribe"
+      className="relative px-6 bg-darkBlue2 dark:bg-darkBlue2 md:px-0"
+    >
+      <div className="relative -top-40 max-w-4xl mx-auto p-10 px-6 space-y-6 text-center rounded-lg bg-gray-400 dark:bg-darkBlue1 md:px-16">
         <h5 className="text-2xl font-bold">Get early access</h5>
         <p className="text-sm">
           It only takes a minute to sign up and our free starter tier is
